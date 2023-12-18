@@ -6,202 +6,196 @@
   font-family: "Public Sans", sans-serif;
 }
 
-@media (max-width: 430px) {
-  .pages {
-    display: none;
-  }
-  .navbar {
-    width: 100vw;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    height: 4em;
-  }
-  .logo {
-    background-position: center;
-    background: url("../images/logo.svg") no-repeat;
-    background-position: center center;
-    width: 10em;
-  }
-  .hamburger {
-    background: url("../images/icon-hamburger.svg") no-repeat;
-    background-position: center center;
-    width: 3em;
-  }
-  .image {
-    width: 100vw;
-    height: 45vh;
-    background: url("../images/image-mockups.png") no-repeat center bottom,
-      url("../images/bg-intro-mobile.svg") no-repeat right;
-    background-size: cover;
-  }
-  .invite-section {
-    text-align: center;
-  }
-  .invite-section h1 {
-    font-size: 2em;
-    line-height: 1.4em;
-    margin: 0.3em 0;
-    padding: 0 1em;
-    font-weight: 300;
-  }
-  .invite-section p {
-    margin: 0;
-    line-height: 1.7em;
-    font-size: 0.9em;
-    color: hsl(233, 8%, 62%);
-    font-weight: 400;
-    padding: 0 2.25em;
-  }
-  .invite-button {
-    font-size: 0.9em;
-    font-weight: 500.5;
-    color: white;
-    border-radius: 2em;
-    height: 2.7em;
-    width: 11em;
-    margin-top: 2em;
-    margin-bottom: 4rem;
-    border: none;
-    background: linear-gradient(
-      to right,
-      hsl(136, 65%, 51%),
-      hsl(192, 70%, 51%)
-    );
-  }
-  .choose-bank {
-    display: flex;
-    flex-direction: column;
-    padding-top: 3rem;
-    text-align: center;
-    background-color: hsl(220, 16%, 96%);
-  }
-  .choose-bank h2 {
-    margin: 0;
-    font-size: 2em;
-    font-weight: 150;
-    margin-bottom: 1rem;
-    padding: 0 2em;
-  }
-  .choose-bank p {
-    font-weight: 400;
-    font-size: 1em;
-    color: hsl(233, 8%, 62%);
-    padding: 0 1.5em;
-    margin-bottom: 2em;
-    line-height: 1.5em;
-  }
-  .services {
-    margin: 2em 0;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-  .service h1 {
-    font-size: 1.2em;
-    margin: 1em 0;
-    font-weight: 100;
-  }
-  .service p {
-    font-weight: 600em;
-    font-size: 1em;
-    padding: 0 1em;
-    margin-bottom: 1.5em;
-  }
-  .latest-articles {
-    background-color: hsl(0, 0%, 98%);
-    padding-top: 4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 3rem;
-  }
-  .latest-articles h1 {
-    font-size: 1.8em;
-    font-weight: 200;
-    margin-bottom: 1em;
-  }
-  #article-cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-  }
-  .article-card {
-    padding-bottom: 2em;
-    margin-bottom: 1.5em;
-    width: 90%;
-    border-radius: 0.5em;
-    background-color: white;
-    list-style: none;
-  }
-  .article-card img {
-    border-radius: 0.5em 0.5em 0 0;
-    width: 100%;
-    margin-bottom: 1em;
-  }
+.pages {
+  display: none;
+}
+.navbar {
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 4em;
+}
+.logo {
+  background-position: center;
+  background: url("../images/logo.svg") no-repeat;
+  background-position: center center;
+  width: 10em;
+}
+.hamburger {
+  background: url("../images/icon-hamburger.svg") no-repeat;
+  background-position: center center;
+  width: 3em;
+}
+.image {
+  width: 100vw;
+  height: 45vh;
+  background: url("../images/image-mockups.png") no-repeat center bottom,
+    url("../images/bg-intro-mobile.svg") no-repeat right;
+  background-size: cover;
+}
+.invite-section {
+  text-align: center;
+}
+.invite-section h1 {
+  font-size: 2em;
+  line-height: 1.4em;
+  margin: 0.3em 0;
+  padding: 0 1em;
+  font-weight: 300;
+}
+.invite-section p {
+  margin: 0;
+  line-height: 1.7em;
+  font-size: 0.9em;
+  color: hsl(233, 8%, 62%);
+  font-weight: 400;
+  padding: 0 2.25em;
+}
+.invite-button {
+  font-size: 0.9em;
+  font-weight: 500.5;
+  color: white;
+  border-radius: 2em;
+  height: 2.7em;
+  width: 11em;
+  margin-top: 2em;
+  margin-bottom: 4rem;
+  border: none;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+.choose-bank {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  text-align: center;
+  background-color: hsl(220, 16%, 96%);
+}
+.choose-bank h2 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 150;
+  margin-bottom: 1rem;
+  padding: 0 2em;
+}
+.choose-bank p {
+  font-weight: 400;
+  font-size: 1em;
+  color: hsl(233, 8%, 62%);
+  padding: 0 1.5em;
+  margin-bottom: 2em;
+  line-height: 1.5em;
+}
+.services {
+  margin: 2em 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.service h1 {
+  font-size: 1.2em;
+  margin: 1em 0;
+  font-weight: 100;
+}
+.service p {
+  font-weight: 600em;
+  font-size: 1em;
+  padding: 0 1em;
+  margin-bottom: 1.5em;
+}
+.latest-articles {
+  background-color: hsl(0, 0%, 98%);
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.latest-articles h1 {
+  font-size: 1.8em;
+  font-weight: 200;
+  margin-bottom: 1em;
+}
+#article-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+.article-card {
+  padding-bottom: 2em;
+  margin-bottom: 1.5em;
+  width: 90%;
+  border-radius: 0.5em;
+  background-color: white;
+  list-style: none;
+}
+.article-card img {
+  border-radius: 0.5em 0.5em 0 0;
+  width: 100%;
+  margin-bottom: 1em;
+}
 
-  figcaption h6,
-  figcaption p {
-    color: hsl(233, 8%, 62%);
-  }
+figcaption h6,
+figcaption p {
+  color: hsl(233, 8%, 62%);
+}
 
-  figcaption h2 {
-    font-weight: 300;
-    margin: 0.5rem 0;
-    padding: 0 1.5rem;
-    font-size: 1.1em;
-  }
-  figcaption p {
-    padding: 0 1.5rem;
-    font-size: 0.9em;
-  }
-  figcaption h6 {
-    font-size: 0.75em;
-    padding: 0 1.5rem;
-  }
-  footer {
-    background-color: hsl(233, 26%, 24%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2em;
-  }
-  .website-logos {
-    display: flex;
-    align-items: center;
-    padding: 1.5em;
-  }
-  .web-logo {
-    margin: 0 0.25em;
-  }
-  footer a {
-    text-decoration: none;
-    color: white;
-  }
-  .pages-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .pages-link a {
-    font-size: 0.8em;
-    font-weight: lighter;
-    color: hsl(230, 6%, 80%);
-    margin-bottom: 1em;
-  }
-  .footer-button {
-    margin: 1em 0;
-    width: 10em;
-    font-size: 0.9em;
-    height: 2.7em;
-  }
-  #copyright {
-    color: hsl(233, 8%, 62%);
-    font-size: 0.8em;
-    margin-top: 1.2em;
-    margin-bottom: 4em;
-  }
+figcaption h2 {
+  font-weight: 300;
+  margin: 0.5rem 0;
+  padding: 0 1.5rem;
+  font-size: 1.1em;
+}
+figcaption p {
+  padding: 0 1.5rem;
+  font-size: 0.9em;
+}
+figcaption h6 {
+  font-size: 0.75em;
+  padding: 0 1.5rem;
+}
+footer {
+  background-color: hsl(233, 26%, 24%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em;
+}
+.website-logos {
+  display: flex;
+  align-items: center;
+  padding: 1.5em;
+}
+.web-logo {
+  margin: 0 0.25em;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+.pages-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pages-link a {
+  font-size: 0.8em;
+  font-weight: lighter;
+  color: hsl(230, 6%, 80%);
+  margin-bottom: 1em;
+}
+.footer-button {
+  margin: 1em 0;
+  width: 10em;
+  font-size: 0.9em;
+  height: 2.7em;
+}
+#copyright {
+  color: hsl(233, 8%, 62%);
+  font-size: 0.8em;
+  margin-top: 1.2em;
+  margin-bottom: 4em;
 }
