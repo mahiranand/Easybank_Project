@@ -143,11 +143,11 @@ figcaption h2 {
   font-weight: 300;
   margin: 0.5rem 0;
   padding: 0 1.5rem;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 figcaption p {
   padding: 0 1.5rem;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 figcaption h6 {
   font-size: 0.75em;
