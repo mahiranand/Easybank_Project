@@ -79,7 +79,7 @@
   font-size: 1em;
   color: hsl(233, 8%, 62%);
   padding: 0 1.5em;
-  margin: 0;
+  margin-bottom: 2em;
   line-height: 1.5em;
 }
 .services {
@@ -99,7 +99,7 @@
   font-weight: 600em;
   font-size: 1em;
   padding: 0 1em;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 .latest-articles {
   background-color: hsl(0, 0%, 98%);
