@@ -6,7 +6,10 @@
   font-family: "Public Sans", sans-serif;
 }
 
-@media(max-width: 430px) {
+@media (max-width: 430px) {
+  .pages {
+    display: none;
+  }
   .navbar {
     width: 100vw;
     background-color: white;
