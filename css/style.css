@@ -224,7 +224,7 @@ footer a {
     align-self: center;
   }
   .navbar {
-    padding: 0 5rem;
+    padding: 0 6rem;
   }
   .navbar button {
     margin: 0;
@@ -247,7 +247,7 @@ footer a {
     color: hsl(233, 8%, 62%);
   }
   .choose-bank {
-    padding: 5rem;
+    padding: 6rem;
     text-align: left;
     align-items: flex-start;
   }
@@ -271,7 +271,7 @@ footer a {
   }
   .latest-articles {
     align-items: flex-start;
-    padding: 5rem;
+    padding: 6rem;
   }
   #article-cards {
     width: 100%;
@@ -342,9 +342,9 @@ footer a {
   .invite-section {
     text-align: left;
     padding-bottom: 15rem;
-    padding-left: 5rem;
+    padding-left: 6rem;
     padding-top: 9rem;
-    padding-right: 12rem;
+    padding-right: 9rem;
   }
   .invite-section p,
   .invite-section h1 {
