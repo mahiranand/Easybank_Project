@@ -292,10 +292,12 @@ footer a {
   }
   .article-card {
     width: 17rem;
-    /* height: 65vh; */
   }
   .article-card img {
-    height: 204px;
+    height: 200px;
+  }
+  .article-card p{
+    font-weight: 350;
   }
   footer {
     flex-direction: row;
