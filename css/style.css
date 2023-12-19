@@ -282,10 +282,10 @@ footer a {
   }
   .article-card {
     width: 17rem;
-    height: 65vh;
+    /* height: 65vh; */
   }
   .article-card img {
-    height: 50%;
+    height: 204px;
   }
   footer {
     flex-direction: row;
