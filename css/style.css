@@ -46,7 +46,6 @@
   font-weight: 300;
 }
 .invite-section p {
-  margin: 0;
   line-height: 1.7em;
   font-size: 0.9em;
   color: hsl(233, 8%, 62%);
@@ -209,7 +208,7 @@ footer a {
   flex-direction: column;
   align-items: center;
 }
-.pages li:hover{
+.pages li:hover {
   border-bottom: 4px solid hsl(136, 65%, 51%);
 }
 @media (min-width: 769px) {
@@ -232,14 +231,14 @@ footer a {
     padding: 0;
     align-self: center;
   }
-  .pages{
+  .pages {
     list-style: none;
     text-align: center;
     height: 100%;
     display: flex;
     align-items: center;
   }
-  .pages li{
+  .pages li {
     padding: 1em 0;
     margin: 0 1rem;
   }
@@ -268,7 +267,7 @@ footer a {
   }
   .service {
     width: 15rem;
-    margin: 0 1rem;
+    margin-right:1rem;
   }
   .latest-articles {
     align-items: flex-start;
@@ -310,48 +309,52 @@ footer a {
   .copy-button {
     align-items: flex-end;
   }
-  .desktop-img{
+  .desktop-img {
     display: block;
   }
   .image {
-    height: 100%;
-    width: 50%;
-    background: url("../images/bg-intro-desktop.svg") no-repeat right;
-    background-position: right -18rem top -11rem;
-    background-size: cover;
-    order: 1;
-    overflow: hidden;
+    background: none;
   }
-  .banner{
+  .image img {
+    height: 70%;
+    transform: translate(5rem, -7rem);
+    /* background: url('../images/bg-intro-desktop.svg') no-repeat;
+    background-position: -4rem -9rem; */
+  }
+  .banner {
     display: flex;
     width: 100vw;
+    overflow: hidden;
   }
-  .image img{
-    width: 100%;
+  .image {
+    width: 60%;
     height: 100%;
-    float: right;
-    position: relative;
-    top:-7rem;
-    left: 16%;
+    order: 1;
+    background: url("../images/bg-intro-desktop.svg") no-repeat;
+    background-position: -4rem -16rem;
   }
-  .invite-section{
+  .invite-section {
     width: 50%;
   }
-  .choose-bank{
+  .choose-bank {
     margin-top: -15rem;
   }
-  .invite-section{
-    padding: 0 7.5rem;
-    margin: 5rem;
-    display: flex;
+  .invite-section {
     text-align: left;
-    flex-direction: column;
+    padding-bottom: 15rem;
+    padding-left: 5rem;
+    padding-top: 9rem;
+    padding-right: 12rem;
   }
-  .invite-section h1{
+  .invite-section p,
+  .invite-section h1 {
+    padding: 0;
+  }
+  .invite-section h1 {
     font-size: 2.5rem;
-    padding: 0;
   }
-  .invite-section p{
-    padding: 0;
+  .choose-bank>p{
+    width: 60%;
+    margin-top: 1rem;
   }
 }
