@@ -5,8 +5,9 @@
   font-size: 18px;
   font-family: "Public Sans", sans-serif;
 }
-
-.pages {
+.pages,
+.navbar button,
+.desktop-img {
   display: none;
 }
 .navbar {
@@ -122,7 +123,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
 }
 .article-card {
   padding-bottom: 2em;
@@ -198,4 +198,160 @@ footer a {
   font-size: 0.8em;
   margin-top: 1.2em;
   margin-bottom: 4em;
+}
+.tags {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.copy-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pages li:hover{
+  border-bottom: 4px solid hsl(136, 65%, 51%);
+}
+@media (min-width: 769px) {
+  .pages,
+  .navbar button {
+    display: block;
+  }
+  .hamburger {
+    display: none;
+  }
+  .pages {
+    display: flex;
+    align-self: center;
+  }
+  .navbar {
+    padding: 0 5rem;
+  }
+  .navbar button {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+  }
+  .pages{
+    list-style: none;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .pages li{
+    padding: 1em 0;
+    margin: 0 1rem;
+  }
+  .pages a {
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+  }
+  .choose-bank {
+    padding: 5rem;
+    text-align: left;
+    align-items: flex-start;
+  }
+  .choose-bank h2 {
+    padding: 0;
+  }
+  .choose-bank p {
+    text-align: left;
+    padding: 0;
+  }
+  .services {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+  }
+  .service {
+    width: 15rem;
+    margin: 0 1rem;
+  }
+  .latest-articles {
+    align-items: flex-start;
+    padding: 5rem;
+  }
+  #article-cards {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .article-card {
+    width: 17rem;
+    height: 65vh;
+  }
+  .article-card img {
+    height: 50%;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 12rem;
+  }
+  .web-logo {
+    margin-top: 2rem;
+  }
+  .pages-link {
+    align-self: flex-start;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .pages-link a {
+    height: 3rem;
+    margin: 0 3rem;
+  }
+  .copy-button {
+    align-items: flex-end;
+  }
+  .desktop-img{
+    display: block;
+  }
+  .image {
+    height: 100%;
+    width: 50%;
+    background: url("../images/bg-intro-desktop.svg") no-repeat right;
+    background-position: right -18rem top -11rem;
+    background-size: cover;
+    order: 1;
+    overflow: hidden;
+  }
+  .banner{
+    display: flex;
+    width: 100vw;
+  }
+  .image img{
+    width: 100%;
+    height: 100%;
+    float: right;
+    position: relative;
+    top:-7rem;
+    left: 16%;
+  }
+  .invite-section{
+    width: 50%;
+  }
+  .choose-bank{
+    margin-top: -15rem;
+  }
+  .invite-section{
+    padding: 0 7.5rem;
+    margin: 5rem;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+  }
+  .invite-section h1{
+    font-size: 2.5rem;
+    padding: 0;
+  }
+  .invite-section p{
+    padding: 0;
+  }
 }
